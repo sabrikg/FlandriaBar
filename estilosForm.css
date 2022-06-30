@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    top: 0;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    max-width: 550px;
+    width: 90%;
+    background: rgb(0, 0, 0);
+    margin: 10.5vh auto 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 3px solid #F18312;
+}
+
+input[type="text"]:focus,textarea:focus{
+    border-bottom: 1px solid #F18312;
+}
+
+textarea::-webkit-scrollbar{
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: #F18312;
+}
+
+.center{
+    text-align: center;
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: #F18312;
+    color: whitesmoke;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.error{
+    color: red;
+}
+
+.error-border{
+    border-bottom: 1px solid red;
+}
+
+#success{
+    color: #218839;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 17px;
+    color: white;
+}
+
+.salon{
+    margin: -2;
+}

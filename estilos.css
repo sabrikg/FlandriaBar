@@ -1,0 +1,313 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Imprima', sans-serif;
+    margin: 0;
+    font-weight: lighter;
+}
+
+
+ul{ list-style: none;}
+
+.body{
+    margin: 0;
+    display:block;
+    background-color: black;
+}
+
+button{
+    border: 3px solid #F18312;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 30px;
+    border-radius: 192px;   
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto; 
+}
+
+header{
+    background-color: black;
+}
+
+header .logo{
+    color: #ef963d; 
+    padding: 20px 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+header .container{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 25px;
+    margin-top:0%;
+}
+
+header a{
+    padding: 7px 15px; 
+    text-decoration: none;
+    border: 3px solid #F18312;
+    border-radius: 192px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black; 
+    margin: 10px;
+    justify-content: center;
+}
+
+header a:hover{
+    color:orange; 
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh; 
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) )
+    ,url("fotos/bar_fondo_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#info button{
+    background: rgba(0, 0, 0, 0.7);
+    border: 0.188em solid #f79738f1;
+    border-radius: 1.5em;
+    color: white;
+    font-weight: lighter; 
+    margin: 20px; 
+    display: center;
+}
+
+#info button:hover{
+    color: rgba(116, 114, 114, 0.5)
+}
+
+#info h2{
+    color: white; 
+    font-weight: lighter;
+    padding: 20px;
+    margin: 2px; 
+}
+
+#info h4{
+    color: white; 
+    font-weight: lighter;
+    padding: 10px;
+    margin: 40px; 
+    background-color: rgba(128, 128, 128, 0.383);
+}
+#info .img-container-logo{
+ top: -50px;
+}
+
+.img-container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 5px;
+}
+
+.menu{
+    max-width: 50%;
+    border: 2px solid black;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin: 20px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#display-juegos .container{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+    padding: 10px;
+}
+
+#display-juegos .juego1{
+    padding: 15px;
+    margin-right: 5px;
+}
+
+#display-juegos .juego2{
+    padding: 15px; 
+    margin-left: 5px;
+}
+
+#display-fotos h3{
+    margin-top: 0;
+    margin: 20px;
+    padding: 2px;
+    color:black;
+    background-color: #d3c6b995;
+    font-weight: bold;
+    
+    
+}
+
+#display-fotos .container{
+    padding: 60px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+
+
+}
+
+#display-fotos .carta1{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) )
+    ,url("fotos/juegos.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 3px;
+    margin: 10px;
+    object-fit:fill;
+    height: 300px;
+    width: 300px;
+}
+
+#display-fotos .carta2{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) )
+    ,url("fotos/ComidaSlider.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 3px;
+    margin: 10px;
+    object-fit:fill;
+    height: 300px;
+    width: 300px;
+}
+
+#display-fotos .carta3{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) )
+    ,url("fotos/TragoSlider.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 3px;
+    margin: 10px;
+    object-fit:fill;
+    height: 300px;
+    width: 300px;
+}
+
+#display-fotos p{
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.867);
+    height: 200px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-content h3{
+    color: gray;
+    margin: 5px auto;
+}
+
+.redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.redes li{
+    margin: 0 10px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: gray;
+
+}
+
+.redes a i{
+    font-size: 1.1rem;
+}
+
+.redes a:hover{
+    color: gray; 
+}
+@media (min-width: 720px) {
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    header .nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 50px;
+        margin: 5px;
+    }
+
+    #display-fotos .container{
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    #display-fotos h3{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 970px) {
+
+    #display-juegos .container{
+        display: flex;
+    }
+
+}
